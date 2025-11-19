@@ -1,0 +1,44 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00bfa5, #00695c);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00e5cc, #00897b);
+}
+
+.bubble {
+  padding: 16px 24px !important; /* ini yang tadi error jadi 85% */
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.5s ease-out;
+  backdrop-filter: blur(10px);
+}
+
+.user-bubble {
+  background: linear-gradient(135deg, #00695c, #004d40);
+  border-bottom-right-radius: 6px !important;
+}
+
+.bot-bubble {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border: 1px solid #334155;
+  border-bottom-left-radius: 6px !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
