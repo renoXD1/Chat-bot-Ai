@@ -1,5 +1,5 @@
 // groq-api.js
-const GROQ_API_KEY = "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"; // GANTI YA!
+const GROQ_API_KEY = "GROQ_API_KEY"; // GANTI YA!
 const API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 export async function sendMessageToGroq(messages, model = "llama-3.1-70b-versatile") {
