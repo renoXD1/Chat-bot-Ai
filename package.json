@@ -14,13 +14,14 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest",
-    "eslint": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest"
-  }
+  "autoprefixer": "latest",
+  "postcss": "latest",
+  "@tailwindcss/postcss": "latest",
+  "tailwindcss": "latest",
+  "typescript": "latest",
+  "eslint": "latest",
+  "@types/node": "latest",
+  "@types/react": "latest",
+  "@types/react-dom": "latest"
+}
 }
